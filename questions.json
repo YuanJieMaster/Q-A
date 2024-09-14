@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "What is Go?",
+    "detail": "I want to learn Go programming.",
+    "author": "Alice",
+    "created_at": "2023-09-12T12:00:00Z",
+    "author_email": "alice@example.com",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Go is an open-source programming language created at Google.",
+        "created_at": "2023-09-12T12:05:00Z",
+        "author_email": "bob@example.com",
+        "author_name": "Bob",
+        "question_id": 1,
+        "is_best": true
+      },
+      {
+        "id": 2,
+        "content": "Go, also known as Golang, is designed for simplicity and efficiency.",
+        "created_at": "2023-09-12T12:10:00Z",
+        "author_email": "carol@example.com",
+        "author_name": "Carol",
+        "question_id": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "How does concurrency work in Go?",
+    "detail": "I'm curious about the concurrency model in Go.",
+    "author": "Dave",
+    "created_at": "2023-09-13T08:30:00Z",
+    "author_email": "dave@example.com",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Concurrency in Go is achieved through goroutines and channels.",
+        "created_at": "2023-09-13T08:45:00Z",
+        "author_email": "eve@example.com",
+        "author_name": "Eve",
+        "question_id": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "What are the best practices for error handling in Go?",
+    "detail": "I'm looking for guidelines on error handling.",
+    "author": "Frank",
+    "created_at": "2023-09-14T15:20:00Z",
+    "author_email": "frank@example.com",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Prefer explicit error handling over using multiple return values.",
+        "created_at": "2023-09-14T15:30:00Z",
+        "author_email": "grace@example.com",
+        "author_name": "Grace",
+        "question_id": 3,
+        "is_best": true
+      },
+      {
+        "id": 2,
+        "content": "Always check if an error is `nil` before proceeding.",
+        "created_at": "2023-09-14T15:35:00Z",
+        "author_email": "hank@example.com",
+        "author_name": "Hank",
+        "question_id": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "What is the purpose of Go?",
+    "detail": "I'm looking to understand the main goals and applications of the Go programming language.",
+    "author": "John Doe",
+    "created_at": "2023-09-15T14:30:00Z",
+    "author_email": "johndoe@example.com",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Go is designed for simplicity and efficiency. It is often used for web servers, cloud services, and other networked applications.",
+        "created_at": "2023-09-16T10:00:00Z",
+        "author_email": "answerer1@example.com",
+        "author_name": "Alice Smith",
+        "question_id": 1,
+        "is_best": true
+      },
+      {
+        "id": 2,
+        "content": "Go supports concurrency, making it a great choice for parallel processing applications.",
+        "created_at": "2023-09-17T12:30:00Z",
+        "author_email": "answerer2@example.com",
+        "author_name": "Bob Johnson",
+        "question_id": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "What is the purpose of Go?",
+    "detail": "I'm looking to understand the main goals and applications of the Go programming language.",
+    "author": "John Doe",
+    "created_at": "2023-09-15T14:30:00Z",
+    "author_email": "johndoe@example.com",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Go is designed for simplicity and efficiency. It is often used for web servers, cloud services, and other networked applications.",
+        "created_at": "2023-09-16T10:00:00Z",
+        "author_email": "answerer1@example.com",
+        "author_name": "Alice Smith",
+        "question_id": 1,
+        "is_best": true
+      },
+      {
+        "id": 2,
+        "content": "Go supports concurrency, making it a great choice for parallel processing applications.",
+        "created_at": "2023-09-17T12:30:00Z",
+        "author_email": "answerer2@example.com",
+        "author_name": "Bob Johnson",
+        "question_id": 1
+      }
+    ]
+  }
+]
